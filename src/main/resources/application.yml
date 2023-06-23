@@ -1,0 +1,42 @@
+server:
+  port: 8088
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 这行需要修改为正确的数据库地址
+    url: jdbc:mysql://localhost:3306/chat?serverTimezone=UTC
+    # 这行需要修改为正确的用户名
+    username: root
+    # 这行需要修改为正确的密码
+    password: 12345678
+    hikari:
+      read-only: false
+      connection-timeout: 60000
+      idle-timeout: 20000
+      validation-timeout: 3000
+      max-lifetime: 60000
+      login-timeout: 5
+      maximum-pool-size: 60
+      minimum-idle: 10
+
+  mvc:
+    static-path-pattern: /res/**
+  resources:
+#    这行需要修改为正确的路径
+    static-locations: file:/C:/Users/wwwww/Documents/res/
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+  redis:
+    # 需要安装redis并正确填写配置
+    host: localhost
+    port: 6379
+
+
+mybatis:
+  type-aliases-package: com.aiit.pojo
+
+
+
