@@ -1,5 +1,5 @@
 # ChatService
-这是一个使用Springboot+mysql+netty+redis编写的Java后端程序
+这是一个使用Springboot+mysql+netty+redis实现的Java后端程序
 大学时编写的学习项目
 ## iOS端地址：https://github.com/wwwwdkdk/Sparrow
 
