@@ -5,13 +5,13 @@
 
 大学时编写的学习项目
 ## 聊天APP iOS端地址：https://github.com/wwwwdkdk/Sparrow 
-
+ 
 ## 如何运行：
-1.需要安装redis
+1.需要安装redis, 端口6379
 
-2.需要Java环境
+2.需要Java环境（版本不能太低）
 
-3.需要安装mysql，并运行chat.sql文件
+3.需要安装mysql（开发环境是8版本），并运行chat.sql文件
 
 4.需要修改application.yaml中的配置
 
