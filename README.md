@@ -1,7 +1,7 @@
 # ChatService
 这是一个使用Springboot+mysql+netty+redis实现的Java后端程序（聊天APP后端），
 
-实现了消息列表，好友聊天，好友动态，好友列表等功能 
+实现了消息列表，好友聊天，好友动态，好友列表等功能  
 
 大学时编写的学习项目
 ## 聊天APP iOS端地址：https://github.com/wwwwdkdk/Sparrow 
